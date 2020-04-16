@@ -1,3 +1,41 @@
+
+
 body {
-    background-color: pink;
+    background-color: white;
+}
+
+h1 {
+    margin: 10px;
+    text-align:center;
+    color: #00004d;
+}
+
+h2 {
+    color: #000080;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #f2f2f2;
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 14px 16px;
+    color: #4d4dff;
+
+}
+
+nav ul li a:hover {
+    background-color:#ccccff;
+    color: #6666ff;
 }
